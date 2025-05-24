@@ -19,20 +19,20 @@ The platform helps university students, faculty, and staff coordinate carpools a
 - Member 4: *Jahed, Fahad Bin*
 
 ## 📁 Project Structure
- project-repo/
- ├── README.md
- ├── task1_team_preliminary/
- │ ├── TT2L_G7_TeamPreliminary.docx
- │ └── TT2L_G7_TeamRoles.docx
- ├── task2_context_sources/
- │ └── TT2L_G7_ContextSources.docx
- ├── task3_kano_plan/
- │ └── TT2L_G7_KanoPlan.docx
- ├── task4_elicitation/
- │ ├── TT2L_G7_ElicitationOutput.docx
- │ └── proof/
- ├── task5_srs/
- │ └── TT2L_G7_SRS.docx
+- project-repo/
+- ├── README.md
+- ├── task1_team_preliminary/
+- │ ├── TT2L_G7_TeamPreliminary.docx
+- │ └── TT2L_G7_TeamRoles.docx
+- ├── task2_context_sources/
+- │ └── TT2L_G7_ContextSources.docx
+- ├── task3_kano_plan/
+- │ └── TT2L_G7_KanoPlan.docx
+- ├── task4_elicitation/
+- │ ├── TT2L_G7_ElicitationOutput.docx
+- │ └── proof/
+- ├── task5_srs/
+- │ └── TT2L_G7_SRS.docx
 
 ## 🛠️ Tools Used
 - Microsoft Teams (for collaboration)
