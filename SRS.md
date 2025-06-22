@@ -351,6 +351,8 @@ Ride-Sharing and Parking Integration System is designed to fulfill a set
 of key requirements tailored to the dynamic transportation needs of the
 university community.
 
+Table 1.1: Goals of the System
+
 |  |  |
 |----|----|
 | Requirement ID | Goals |
@@ -365,7 +367,7 @@ university community.
 | REQ_CRPS_009 | The system shall promote ride-sharing as a sustainable commuting alternative to reduce emissions and traffic. |
 | REQ_CRPS_010 | The system shall include analytics dashboards for administrators to monitor usage and generate actionable insights. |
 
-Table 1.1: Goals of the System
+
 
 By addressing these requirements, the system aims to enhance campus
 mobility, ensure secure and efficient commuting, and support data-driven
@@ -544,6 +546,8 @@ impact the usage of the Campus Ride-Sharing and Parking Integration
 System. The following table summarizes the expected level of knowledge
 for each user role.
 
+Table 1.2: User Characteristics
+
 |  |  |  |
 |----|----|----|
 | Role | Description | Expected Knowledge |
@@ -551,8 +555,6 @@ for each user role.
 | Staff | Faculty and administrative staff of the university who commute to campus. | Moderate understanding of the platform features; can use carpooling and parking tools. |
 | Guest | Visitors or external individuals accessing campus with temporary parking needs. | Limited system knowledge; guided access to parking functions through a simplified UI. |
 | Admin | System administrators who oversee operations, analytics, and user management. | High proficiency in backend management, user account handling, and data reporting tools. |
-
-Table 1.2: User Characteristics
 
 <span id="_1dmqro6afeef" class="anchor"></span>
 
@@ -612,6 +614,8 @@ limitations are as follows:
 Below are terms, phrases and words used in the document and their
 related definitions:
 
+Table 1.3: Definition
+
 |  |  |
 |----|----|
 | Terms | Definition |
@@ -627,8 +631,6 @@ related definitions:
 | Real-Time Parking Data | Dynamic data that reflects the current availability of parking spots across campus. |
 | Reporting Feature | A feature that allows users to report incidents or request assistance during carpooling activities. |
 | System Dashboard | The interface used by administrators to view analytics, manage content, and respond to user issues. |
-
-Table 1.3: Definition
 
 ## 2 Reference
 
@@ -671,16 +673,21 @@ actors.
 alt="A diagram of a diagram AI-generated content may be incorrect." />
 
 Figure 3.1: Use Case Diagram of Campus Ride-Sharing and Parking
+
 Integration System
 
 <span id="_wgt7p1owc0h4" class="anchor"></span>
 
 3.1.1.1 Student
 
-Figure 3.2: Use Case Diagram of Actor (Student)
+
 
 <img src="./media/image5.png" style="width:5.73013in;height:6.30691in"
 alt="A diagram of a student AI-generated content may be incorrect." />
+
+Figure 3.2: Use Case Diagram of Actor (Student)
+
+Table 3.1: Use Case Diagram of Actor (Student)
 
 |  |  |  |
 |:---|:---|:---|
@@ -695,15 +702,16 @@ alt="A diagram of a student AI-generated content may be incorrect." />
 | REQ_UCS008 | Reserve Parking Spot | Enables student to book parking space before arrival |
 | REQ_UCS009 | Check Parking Status | Allows student to view parking reservation details |
 
-Table 3.1: Use Case Diagram of Actor (Student)
-
 ##### 3.1.1.2 Staff
 
-Figure 3.3: Use Case Diagram of Actor (Staff)
+
 
 <img src="./media/image6.png" style="width:5.83674in;height:5.82483in"
 alt="A diagram of a person&#39;s work flow AI-generated content may be incorrect." />
 
+Figure 3.3: Use Case Diagram of Actor (Staff)
+
+Table 3.2: Use Case Diagram of Actor (Staff)
 |  |  |  |
 |:---|:---|:---|
 | Use Case ID | Use Case Name | Description |
@@ -717,15 +725,16 @@ alt="A diagram of a person&#39;s work flow AI-generated content may be incorrect
 | REQ_UCT008 | Reserve Parking Spot | Enables staff to book parking space before arrival |
 | REQ_UCT009 | Check Parking Status | Allows staff to view parking reservation details |
 
-Table 3.2: Use Case Diagram of Actor (Staff)
-
 ##### 3.1.1.3 Guest
 
-Figure 3.4: Use Case Diagram of Actor (Guest)
+
 
 <img src="./media/image7.png" style="width:5.72917in;height:3.05208in"
 alt="A diagram of a system AI-generated content may be incorrect." />
 
+Figure 3.4: Use Case Diagram of Actor (Guest)
+
+Table 3.3: Use Case Diagram of Actor (Guest)
 |  |  |  |
 |:---|:---|:---|
 | Use Case ID | Use Case Name | Description |
@@ -734,7 +743,7 @@ alt="A diagram of a system AI-generated content may be incorrect." />
 | REQ_UCG003 | Reserve Parking Spot | Enables guest to reserve parking space |
 | REQ_UCG004 | Check Parking Status | Allows guest to check status of reserved parking |
 
-Table 3.3: Use Case Diagram of Actor (Guest)
+
 
 ##### 3.1.1.4 Admin
 
@@ -743,6 +752,7 @@ Figure 3.5: Use Case Diagram of Actor (Admin)
 <img src="./media/image8.png" style="width:4.52083in;height:4.3125in"
 alt="A diagram of a person AI-generated content may be incorrect." />
 
+Table 3.4: Use Case Diagram of Actor (Admin)
 |  |  |  |
 |----|----|----|
 | Use Case ID | Use Case Name | Description |
@@ -752,7 +762,7 @@ alt="A diagram of a person AI-generated content may be incorrect." />
 | REQ_UCA004 | Access Carpooling Data | Admin views and manages carpooling-related records |
 | REQ_UCA005 | Access Parking Data | Admin views and manages parking-related records |
 
-Table 3.4: Use Case Diagram of Actor (Admin)<span id="_sg6k33co2rmc"
+<span id="_sg6k33co2rmc"
 class="anchor"></span>
 
 3.1.2 Sequence Diagram
@@ -765,6 +775,7 @@ alt="A diagram of a program AI-generated content may be incorrect." />
 
 Figure 3.6：Login and Logout with University Credentials
 
+Table 3.5 : Login and Logout with University Credentials
 <table>
 <colgroup>
 <col style="width: 26%" />
@@ -820,8 +831,6 @@ system</td>
 </tbody>
 </table>
 
-Table 3.5 : Login and Logout with University Credentials
-
 ##### 3.1.2.2 Guest
 Login/Logout(Guest)
 
@@ -830,6 +839,7 @@ alt="A diagram of a guest login AI-generated content may be incorrect." />
 
 Figure 3.7: Guest Login and Logout
 
+Table 3.6: Guest Login and Logout
 <table>
 <colgroup>
 <col style="width: 23%" />
@@ -882,7 +892,7 @@ dashboard</td>
 </tbody>
 </table>
 
-Table 3.6: Guest Login and Logout
+
 
 ##### 3.1.2.3 Create Ride Offer
 (Student and Staff)
@@ -891,6 +901,9 @@ Table 3.6: Guest Login and Logout
 alt="A diagram of a car dashboard AI-generated content may be incorrect." />
 
 Figure 3.8: Create Ride Offer
+
+Table 3.7: Create Ride Offer
+
 
 <table>
 <colgroup>
@@ -949,8 +962,6 @@ offer</td>
 </tbody>
 </table>
 
-Table 3.7: Create Ride Offer
-
 ##### 3.1.2.4 Join Ride(Student
 and Staff）
 
@@ -959,6 +970,7 @@ alt="A screenshot of a diagram AI-generated content may be incorrect." />
 
 Figure 3.9: Join Ride
 
+Table 3.8: Join Ride
 <table>
 <colgroup>
 <col style="width: 24%" />
@@ -1015,8 +1027,6 @@ routes</td>
 </tbody>
 </table>
 
-Table 3.8: Join Ride
-
 ##### 3.1.2.5 View Recommended
 Matches and Routes(Student and Staff）
 
@@ -1025,6 +1035,7 @@ alt="A screenshot of a computer program AI-generated content may be incorrect." 
 
 Figure 3.10: View Recommended Matches and Routes
 
+Table 3.9: View Recommended Matches and Routes
 <table>
 <colgroup>
 <col style="width: 19%" />
@@ -1081,7 +1092,6 @@ data</td>
 </tbody>
 </table>
 
-Table 3.9: View Recommended Matches and Routes
 
 ##### 3.1.2.6 Manage Trip
 Schedule and History(Student and Staff）
@@ -1149,8 +1159,6 @@ in the system</td>
 </tbody>
 </table>
 
-Table 3.10: Manage Trip Schedule and History
-
 ##### 3.1.2.7 Report
 Feature(Student and Staff）
 
@@ -1159,6 +1167,7 @@ alt="A diagram of a workflow AI-generated content may be incorrect." />
 
 Figure 3.12: Report Feature
 
+Table 3.7: Report Feature
 <table>
 <colgroup>
 <col style="width: 17%" />
@@ -1222,7 +1231,6 @@ displayed to the user</p></td>
 </tbody>
 </table>
 
-Table 3.7: Report Feature
 
 ##### 3.1.2.8 View Real-time
 Parking Availability（Except Admin)
@@ -1232,6 +1240,7 @@ alt="A diagram of parking system AI-generated content may be incorrect." />
 
 Figure 3.13: View Real-time Parking Availability
 
+Table 3.8: View Real-time Parking Availability
 <table>
 <colgroup>
 <col style="width: 23%" />
@@ -1286,7 +1295,6 @@ Parking page</td>
 </tbody>
 </table>
 
-Table 3.8: View Real-time Parking Availability
 
 ##### 3.1.2.9 Reserve Parking
 Spot（Except Admin)
@@ -1296,6 +1304,7 @@ alt="A diagram of parking system AI-generated content may be incorrect." />
 
 Figure 3.14:Reserve Parking Spot
 
+Table 3.9: Reserve Parking Spot
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -1351,7 +1360,6 @@ reservation</td>
 </tbody>
 </table>
 
-Table 3.9: Reserve Parking Spot
 
 ##### 3.1.2.10 Check Parking
 Status （Except Admin)
@@ -1360,6 +1368,8 @@ Status （Except Admin)
 alt="A diagram of a parking system AI-generated content may be incorrect." />
 
 Figure 3.15:Check Parking Status
+
+Table 3.10: Check Parking Status
 
 <table>
 <colgroup>
@@ -1415,8 +1425,6 @@ parking slot</td>
 </tbody>
 </table>
 
-Table 3.10: Check Parking Status
-
 ##### 3.1.2.11 Admin Login
 
 <img src="./media/image19.png" style="width:6.26772in;height:3.31944in"
@@ -1424,6 +1432,7 @@ alt="A diagram of a login AI-generated content may be incorrect." />
 
 Figure 3.16: Admin Login
 
+Table 3.11: Admin Login
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -1477,7 +1486,6 @@ login</td>
 </tbody>
 </table>
 
-Table 3.11: Admin Login
 
 ##### 3.1.2.12 Access
 Carpooling Data & Review Reports and Complaints (Admin)
@@ -1487,6 +1495,7 @@ alt="A diagram of a carpooling process AI-generated content may be incorrect." /
 
 Figure 3.17: Access Carpooling Data & Review Reports and Complaints
 
+Table 3.12: Access Carpooling Data & Review Reports and Complaints
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -1541,7 +1550,6 @@ after clicking feedback button</td>
 </tbody>
 </table>
 
-Table 3.12: Access Carpooling Data & Review Reports and Complaints
 
 ##### 3.1.2.12 Access
 Carpooling Data (Admin)
@@ -1551,6 +1559,7 @@ alt="A diagram of a data flow AI-generated content may be incorrect." />
 
 Figure 3.18: Review Reports and Complaints
 
+Table 3.13: Review Reports and Complaints
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -1603,8 +1612,6 @@ button</td>
 </tbody>
 </table>
 
-Table 3.13: Review Reports and Complaints
-
 ##### 3.1.2.14 Manage User
 Accounts (Admin)
 
@@ -1613,6 +1620,7 @@ alt="A diagram of a user management system AI-generated content may be incorrect
 
 Figure 3.19: Manage User Accounts
 
+Table 3.14: Manage User Accounts
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -1665,8 +1673,6 @@ Figure 3.19: Manage User Accounts
 </tbody>
 </table>
 
-Table 3.14: Manage User Accounts
-
 ##### 3.1.2.15 Access Parking
 Data (Admin)
 
@@ -1675,6 +1681,7 @@ alt="A diagram of parking data AI-generated content may be incorrect." />
 
 Figure 3.20: Access Parking Data
 
+Table 3.15: Access Parking Data
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -1727,8 +1734,6 @@ Figure 3.20: Access Parking Data
 </tbody>
 </table>
 
-Table 3.15: Access Parking Data
-
 ### 3.2 Performance
 Requirements
 
@@ -1738,6 +1743,7 @@ ensure the system delivers a responsive, stable, and scalable user
 experience under different load conditions. The table below outlines the
 desired performance characteristics to meet user needs effectively.
 
+Table 3.1: Performance Requirements
 |  |  |  |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1757,7 +1763,6 @@ desired performance characteristics to meet user needs effectively.
 | REQ_P014 | The system shall use load balancing techniques to efficiently distribute user requests across servers. | High |
 | REQ_P015 | Secure communications shall use encryption with a processing delay of less than 50ms. | Medium |
 
-Table 3.1: Performance Requirements
 
 ### 3.3 Usability
 Requirements
@@ -1769,6 +1774,7 @@ accessible experience for all types of users, including students, staff,
 guests, and administrators. The table below details each usability
 requirement.
 
+Table 3.2: Usability Requirements
 |  |  |  |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1788,7 +1794,6 @@ requirement.
 | REQ_UR014 | The platform shall include accessibility features such as screen reader compatibility, color contrast, and keyboard navigation. | High |
 | REQ_UR015 | The system shall be regularly updated to maintain compatibility with browsers and device operating systems. | Medium |
 
-Table 3.2: Usability Requirements
 
 ### 3.4 Interface
 Requirements
@@ -1803,6 +1808,7 @@ role-based access control, and real-time system feedback, providing a
 smooth experience for all users including students, staff, guests, and
 administrators.
 
+Table 3.3: System Interfaces
 |  |  |  |  |
 |:---|:---|:---|:---|
 | Interface ID | System Name | Description | Details |
@@ -1812,7 +1818,6 @@ administrators.
 | REQ_SI004 | Notification Service | Sends alerts to users across all roles including report and admin use | API integration with email/SMS (e.g., SendGrid, Twilio) |
 | REQ_SI005 | Map & Route API | Recommends optimal carpool routes | Connects to map services (e.g., Google Maps) for location and routing |
 
-Table 3.3: System Interfaces
 
 #### 3.4.2 User Interfaces
 
@@ -1822,6 +1827,7 @@ layouts, and user interaction components are designed for clarity,
 accessibility, and consistency, adhering to the Multimedia University
 (MMU) branding and the administrative dashboard interface style.
 
+Table 3.4: User Interfaces
 |  |  |  |
 |:---|:---|:---|
 | Module ID | Description | Priority |
@@ -1838,7 +1844,6 @@ accessibility, and consistency, adhering to the Multimedia University
 | REQ_UI011 | The top navigation bar includes user role display, a Logout button styled in blue (#007BFF), and an icon for intuitive access. | High |
 | REQ_UI012 | All interfaces are designed for desktop resolution first, with flexible layout containers that prevent horizontal scrolling. | Medium |
 
-Table 3.4: User Interfaces
 
 #### 3.4.3 Hardware Interfaces
 
@@ -1849,6 +1854,7 @@ the devices should meet the following minimum hardware specifications.
 Devices that do not meet these requirements may experience degraded
 performance or limited functionality.
 
+Table 3.5: Hardware Interfaces Requirements
 |  |  |
 |:---|:---|
 | Interface ID | Description |
@@ -1857,7 +1863,6 @@ performance or limited functionality.
 | REQ_HI003 | The device shall have at least 2GB of free storage space to accommodate application data and cache |
 | REQ_HI004 | The device must support internet connectivity via Ethernet, Wi-Fi, or mobile data networks to enable real-time updates and communication |
 
-Table 3.5: Hardware Interfaces Requirements
 
 #### 3.4.4 Software Interfaces
 
@@ -1866,6 +1871,7 @@ various software components and platforms to operate effectively. Below
 is a detailed list of software interfaces required for system
 functionality:
 
+Table 3.6: Software Interfaces
 |  |  |  |  |  |  |
 |:---|:---|:---|:---|:---|:---|
 | ID | Category | Name | Version Number | Purpose | Reference |
@@ -1881,7 +1887,6 @@ functionality:
 | REQ_SI004 | Backend Server | Node.js | 18.x or later | Server runtime environment for handling API requests and business logic | Node.js Official Page |
 | REQ_SI005 | API Framework | Express.js | 4.x | Framework for building RESTful APIs to support client-server communication | Express Official Page |
 
-Table 3.6: Software Interfaces
 
 #### 3.4.5 Communications
 Interfaces
@@ -1890,6 +1895,7 @@ This section outlines the communication interfaces and protocols used by
 the Campus Ride-Sharing and Parking Integration System to interact with
 users, external services, and other systems.
 
+Table 1.6: Communications Interfaces
 <table>
 <colgroup>
 <col style="width: 15%" />
@@ -1973,7 +1979,6 @@ formats for data interchange between clients and servers</td>
 </tbody>
 </table>
 
-Table 1.6: Communications Interfaces
 
 <span id="_Toc201504730"
 class="anchor"></span><img src="./media/image24.png" style="width:7.55833in;height:5.725in"
@@ -2005,6 +2010,8 @@ possessing role-based operations and permissions.
 
 #### 3.5.1 User
 
+Table 3.4: User Data Dictionary
+
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2014,48 +2021,47 @@ possessing role-based operations and permissions.
 | password | Encrypted user password. | Varchar (30) | Not Null | Used as login credentials |
 | role | Role of the user (student, staff, admin, guest). | Varchar (10) | Not Null | \- |
 
-Table 3.4: User Data Dictionary
-
 #### 3.5.2 Student
 
+Table 3.5: Student Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
 | studentID | Unique ID for student user. | Integer | PK, FK to User(userID), Not Null | \- |
 
-Table 3.5: Student Data Dictionary
 
 #### 3.5.3 Staff
 
+Table 3.6: Staff Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
 | staffID | Unique ID for staff user. | Integer | PK, FK to User(userID), Not Null | \- |
 
-Table 3.6: Staff Data Dictionary
 
 <span id="_nkctxt4zhy5" class="anchor"></span>
 
 3.5.4 Guest
+
+Table 3.7: Guest Data Dictionary
 
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
 | guestID | Unique ID for guest user. | Integer | PK, FK to User(userID), Not Null | \- |
 
-Table 3.7: Guest Data Dictionary
-
 #### 3.5.5 Admin
 
+Table 3.8: Admin Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
 | adminID | Unique ID for admin user. | Integer | PK, FK to User(userID), Not Null | \- |
 
-Table 3.8: Admin Data Dictionary
 
 #### 3.5.6 RideSharing
 
+Table 3.9: RideSharing Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2067,10 +2073,10 @@ Table 3.8: Admin Data Dictionary
 | availabilitySeat | Available seats. | Integer | Not Null | \- |
 | userID | References the user offering the ride. | Integer | FK to User(userID), Not Null | Used to record who joined this trips |
 
-Table 3.9: RideSharing Data Dictionary
 
 #### 3.5.7 Report
 
+Table 3.10: Report Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2080,10 +2086,10 @@ Table 3.9: RideSharing Data Dictionary
 | reportType | Type of report. | Varchar (20) | Not Null | \- |
 | content | Report details. | Text | Not Null | \- |
 
-Table 3.10: Report Data Dictionary
 
 #### 3.5.8 ParkingSpot
 
+Table 3.11: ParkingSpot Data Dictionary
 |            |                         |               |              |             |
 |:-----------|:------------------------|:--------------|:-------------|:------------|
 | Field Name | Description             | Data Type     | Constraints  | Extra Notes |
@@ -2091,9 +2097,10 @@ Table 3.10: Report Data Dictionary
 | location   | Spot location.          | Varchar (100) | Not Null     | \-          |
 | status     | Availability status.    | Varchar (10)  | Not Null     | \-          |
 
-Table 3.11: ParkingSpot Data Dictionary
 
 #### 3.5.9 Reservation
+
+Table 3.12: Reservation Data Dictionary
 
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
@@ -2103,8 +2110,6 @@ Table 3.11: ParkingSpot Data Dictionary
 | userID | Reserving user. | Integer | FK to User (userID), Not Null | \- |
 | parkingID | Reserved parking spot. | Integer | FK to ParkingSpot (parkingID), Not Null | \- |
 
-Table 3.12: Reservation Data Dictionary
-
 ### 3.6 Design Constraints
 
 This section records the design constraints and limitations that ought
@@ -2113,6 +2118,7 @@ Management System development. The design constraints can be hardware
 constraints, software constraints, regulatory and standard constraints,
 social and cultural constraints, and organizational constraints.
 
+Table 3.13: Design Constraints
 |  |  |  |  |
 |:---|:---|:---|:---|
 | Requirement ID | Description | Priority | Author |
@@ -2129,7 +2135,6 @@ social and cultural constraints, and organizational constraints.
 | REQ_DC011 | The system must incorporate data encryption for sensitive user data (userID, email, ride details) in transit and at rest, per organizational IT security policies. | High | Francis Wong Wei Hou |
 | REQ_DC012 | The system must ensure reports submitted by users are reliably logged and immediately accessible to Admins for quick response. | High | Francis Wong Wei Hou |
 
-Table 3.13: Design Constraints
 
 ### 3.7 Software system
 attributes
@@ -2143,33 +2148,35 @@ in order to meet those needs.
 
 #### 3.7.1 Accuracy
 
+Table 3.14: Accuracy
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
 | REQ_SRA001 | The system shall have an error rate of less than 0.0001% in all computational processes | High | Francis Wong Wei Hou |
 
-Table 3.14: Accuracy
 
 #### 3.7.2 Availability
 
+Table 3.15: Availability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
 | REQ_SRA002 | The system’s server shall maintain consistent uptime with a maximum of 12 hours of downtime per year. | High | Francis Wong Wei Hou |
 
-Table 3.15: Availability
 
 #### 3.7.3 Maintainability
 
+Table 3.16: Maintainability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
 | REQ_SRA003 | The system shall be designed with modular components to allow updates or bug fixes within 24 hours without affecting other functionalities. | High | Francis Wong Wei Hou |
 | REQ_SRA004 | The system shall include detailed documentation for all code and processes to facilitate future maintenance by developers. | Medium | Francis Wong Wei Hou |
 
-Table 3.16: Maintainability
 
 #### 3.7.4 Portability
+
+Table 3.17: Portability
 
 <table>
 <colgroup>
@@ -2204,10 +2211,9 @@ compatibility across environments.</p></td>
 </tbody>
 </table>
 
-Table 3.17: Portability
-
 #### 3.7.5 Reliability
 
+Table 3.18: Reliability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2215,9 +2221,10 @@ Table 3.17: Portability
 | REQ_SRA008 | All transactions shall be recorded accurately, ensuring no data loss or corruption. | High | Francis Wong Wei Hou |
 | REQ_SRA009 | The system shall receive notifications for the success or failure of their actions within the platform. | High | Francis Wong Wei Hou |
 
-Table 3.18: Reliability
 
 #### 3.7.6 Security
+
+Table 3.19: Security
 
 <table>
 <colgroup>
@@ -2251,17 +2258,15 @@ unauthorized access.</td>
 </tbody>
 </table>
 
-Table 3.19: Security
-
 #### 3.7.7 Usability
 
+Table 3.20: Usability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
 | REQ_SRA012 | The system shall provide an intuitive interface, allowing users to complete tasks (reserving a parking spot, joining a ride) in fewer than 5 clicks. | High | Francis Wong Wei Hou |
 | REQ_SRA013 | The system shall include a help section or tooltips to assist users in understanding functionalities. | Medium | Francis Wong Wei Hou |
 
-Table 3.20: Usability
 
 ### 3.8 Supporting
 Information
@@ -2616,6 +2621,8 @@ when, and where.
 #### 4.1.1 Functional
 Requirements Verification
 
+Table 4.1: Functional Requirements Verification
+
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2650,11 +2657,10 @@ Requirements Verification
 </tbody>
 </table>
 
-Table 4.1: Functional Requirements Verification
-
 #### 4.1.2 Performance
 Requirements Verification
 
+Table 4.2: Performance Requirements Verification
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2689,11 +2695,12 @@ Requirements Verification
 </tbody>
 </table>
 
-Table 4.2: Performance Requirements Verification<span id="_fibf6ihexx75"
+<span id="_fibf6ihexx75"
 class="anchor"></span>
 
 4.1.3 Security Requirements Verification
 
+Table 4.3: Security Requirements Verification
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2728,11 +2735,12 @@ class="anchor"></span>
 </tbody>
 </table>
 
-Table 4.3: Security Requirements Verification
+
 
 #### 4.1.4 Usability
 Requirements Verification
 
+Table 4.4: Usability Requirements Verification
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2767,11 +2775,11 @@ Requirements Verification
 </tbody>
 </table>
 
-Table 4.4: Usability Requirements Verification
 
 #### 4.1.5 Maintainability
 Requirements Verification
 
+Table 4.5: Maintainability Requirements Verification
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2806,11 +2814,11 @@ Requirements Verification
 </tbody>
 </table>
 
-Table 4.5: Maintainability Requirements Verification
 
 #### 4.1.6 Portability
 Requirements Verification
 
+Table 4.6: Portability Requirements Verification
 <table>
 <colgroup>
 <col style="width: 18%" />
@@ -2845,7 +2853,6 @@ Requirements Verification
 </tbody>
 </table>
 
-Table 4.6: Portability Requirements Verification
 
 <span id="_4pf4n5hguzzv" class="anchor"></span>
 
@@ -2855,6 +2862,8 @@ This section shows that the system will be verified based on the
 following criteria to ensure it meets the defined functional and quality
 requirements:
 
+
+Table 4.7: Verification Criteria
 |  |  |  |
 |:---|:---|:---|
 | Requirement ID | Requirement/Feature | Verification Criteria |
@@ -2869,7 +2878,6 @@ requirements:
 | REQ_VC009 | Usability | All primary actions (view parking availability, reserve parking, search ride, join ride, report) must be accessible within 3 clicks from the dashboard. |
 | REQ_VC010 | Data Integrity | A ride offer must not be created without mandatory fields such as origin, destination, time, and seat count. |
 
-Table 4.7: Verification Criteria
 
 ## 5 Appendices
 
@@ -2916,6 +2924,8 @@ Dependencies
 ### 5.2 Acronyms and
 Abbreviations
 
+
+Table 5.1
 |                        |                                                    |
 |------------------------|----------------------------------------------------|
 | Acronym / Abbreviation | Definition                                         |
@@ -2933,4 +2943,3 @@ Abbreviations
 | ASD                    | Authentication Server                              |
 | SD                     | System Dashboard                                   |
 
-Table 5.1
