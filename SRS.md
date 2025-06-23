@@ -1830,7 +1830,7 @@ Table 3.22: Usability Requirements
 | REQ_UR004 | The platform shall include a notification system to alert users of trip changes, new ride matches, or parking status updates. | Medium |
 | REQ_UR005 | The interface shall offer a clean, responsive, and intuitive design to minimize user confusion and cognitive load. | High |
 | REQ_UR006 | The admin dashboard shall provide usage analytics and feedback summaries from users regarding ride and parking experiences. | Medium |
-| REQ_UR007 | The platform shall integrate with campus services (e.g., maps, timetable systems) for enhanced navigation and scheduling. | High |
+| REQ_UR007 | The platform shall integrate with campus map services for enhanced navigation. | High |
 | REQ_UR008 | Users shall be able to customize their dashboard to show preferred features such as parking status or trip history. | Low |
 | REQ_UR009 | The platform shall provide onboarding tutorials and tooltips to guide first-time users through core features. | Medium |
 | REQ_UR010 | The platform shall protect user data during all interactions, especially during login and trip/parking sharing. | High |
