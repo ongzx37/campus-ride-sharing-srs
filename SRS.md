@@ -1766,7 +1766,7 @@ Table 3.21: Performance Requirements
 | | | |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
-| REQ_P001 | The system shall respond to user interactions (e.g., booking, joining a ride) within 0 to 3 seconds. | High |
+| REQ_P001 | The system shall achieve ≤ 2 s response time at up to 80 % CPU utilization within the approved $X/month infrastructure budget. Any change to cost or performance requires PO–QA sign-off. | High |
 | REQ_P002 | The platform shall support up to 5,000 concurrent users with a max latency of 500ms. | High |
 | REQ_P003 | The system shall ensure 99.9% uptime availability excluding scheduled maintenance periods. | High |
 | REQ_P004 | Real-time parking data shall be retrieved and displayed within 2 seconds. | Medium |
