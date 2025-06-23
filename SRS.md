@@ -363,6 +363,7 @@ Table 1.1: Goals of the System
 | REQ_CRPS_008 | The system shall provide reporting and contact features to enhance user safety during trips. |
 | REQ_CRPS_009 | The system shall promote ride-sharing as a sustainable commuting alternative to reduce emissions and traffic. |
 | REQ_CRPS_010 | The system shall include analytics dashboards for administrators to monitor usage and generate actionable insights. |
+| REQ_CRPS_011 | The system shall include advanced route-prediction features only after the Dev Lead provides a written feasibility report (skills, timeline, resource gaps). Features without such approval shall not be promised externally. | High |
 
 By addressing these requirements, the system aims to enhance campus
 mobility, ensure secure and efficient commuting, and support data-driven
