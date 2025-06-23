@@ -2848,15 +2848,15 @@ Table 4.7: Verification Criteria
 |:---|:---|:---|
 | Requirement ID | Requirement/Feature | Verification Criteria |
 | REQ_VC001 | Ride offer creation | The system shall allow a user to create a ride offer with details like origin, destination, time, and available seats. A successful message is displayed upon valid submission. |
-| REQ_VC002 | Route matching | When a user searches for a trip, the system must display matched ride offers within a 5 km radius of the user's specified route. |
-| REQ_VC003 | Parking reservation | A user must be able to reserve a parking spot only if it is marked as available in the system. |
-| REQ_VC004 | View parking availability | The system must update and display current parking spot status in real-time. |
-| REQ_VC005 | Report submission | Users must be able to submit an report while in an active ride, and the system shall record the report linked to the ride ID. |
-| REQ_VC006 | User authentication | Login attempts with correct credentials must be authenticated, and users should be redirected based on their roles. |
-| REQ_VC007 | Access control | Guests can access only parking-related features; they must not be allowed to view or create ride-sharing offers. |
+| REQ_VC002 | Route matching | When a user searches for a trip, the system shall display matched ride offers within a 5 km radius of the user's specified route. |
+| REQ_VC003 | Parking reservation | A user shall be able to reserve a parking spot only if it is marked as available in the system. |
+| REQ_VC004 | View parking availability | The system shall update and display current parking spot status in real-time. |
+| REQ_VC005 | Report submission | Users shall be able to submit an report while in an active ride, and the system shall record the report linked to the ride ID. |
+| REQ_VC006 | User authentication | Login attempts with correct credentials shall be authenticated, and users should be redirected based on their roles. |
+| REQ_VC007 | Access control | Guests can access only parking-related features; they shall not be allowed to view or create ride-sharing offers. |
 | REQ_VC008 | Performance | The system shall return search results for ride offers or parking availability within 3 seconds under normal load. |
-| REQ_VC009 | Usability | All primary actions (view parking availability, reserve parking, search ride, join ride, report) must be accessible within 3 clicks from the dashboard. |
-| REQ_VC010 | Data Integrity | A ride offer must not be created without mandatory fields such as origin, destination, time, and seat count. |
+| REQ_VC009 | Usability | All primary actions (view parking availability, reserve parking, search ride, join ride, report) shall be accessible within 3 clicks from the dashboard. |
+| REQ_VC010 | Data Integrity | A ride offer shall not be created without mandatory fields such as origin, destination, time, and seat count. |
 
 ## 5 Appendices
 
