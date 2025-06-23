@@ -358,7 +358,7 @@ Table 1.1: Goals of the System
 | REQ_CRPS_001 | The system shall enable users to coordinate ride-sharing trips based on schedules, locations, and preferences. |
 | REQ_CRPS_002 | The system shall provide a real-time display of available parking spots to assist users in making parking decisions. |
 | REQ_CRPS_003 | The system shall allow users to reserve parking spots in advance to reduce search time and avoid congestion. |
-| REQ_CRPS_004 | The system shall authenticate users through secure university credentials to ensure authorized access. |
+| REQ_CRPS_004 | The system shall authenticate staff and students through secure university credentials and allow guests to log in anonymously or via temporary credentials (REQ_UCG001) to ensure authorized access. |
 | REQ_CRPS_005 | The system shall include GPS-based location tracking to improve matching accuracy and parking navigation. |
 | REQ_CRPS_006 | The system shall provide a centralized web-based interface for ride-sharing and parking services. |
 | REQ_CRPS_007 | The system shall support trip history tracking and real-time notifications for upcoming rides and changes. |
