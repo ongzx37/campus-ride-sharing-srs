@@ -2899,9 +2899,7 @@ Table 4.7: Verification Criteria
 - System updates and maintenance depend on cooperation from university
   IT departments.
 
-### 5.2 Acronyms and
-
-Abbreviations
+### 5.2 Acronyms and Abbreviations
 
 Table 5.1: Acronyms and Abbreviations
 | | |
