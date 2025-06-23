@@ -1057,6 +1057,8 @@ alt="A diagram of a service AI-generated content may be incorrect." />
 
 Figure 3.11: Manage Trip Schedule and History
 
+Table 3.10: Report Feature
+
 <table>
 <colgroup>
 <col style="width: 22%" />
@@ -1122,7 +1124,7 @@ alt="A diagram of a workflow AI-generated content may be incorrect." />
 
 Figure 3.12: Report Feature
 
-Table 3.10: Report Feature
+Table 3.11: Report Feature
 
 <table>
 <colgroup>
@@ -1194,7 +1196,7 @@ alt="A diagram of parking system AI-generated content may be incorrect." />
 
 Figure 3.13: View Real-time Parking Availability
 
-Table 3.11: View Real-time Parking Availability
+Table 3.12: View Real-time Parking Availability
 
 <table>
 <colgroup>
@@ -1257,7 +1259,7 @@ alt="A diagram of parking system AI-generated content may be incorrect." />
 
 Figure 3.14:Reserve Parking Spot
 
-Table 3.12: Reserve Parking Spot
+Table 3.13: Reserve Parking Spot
 
 <table>
 <colgroup>
@@ -1321,7 +1323,7 @@ alt="A diagram of a parking system AI-generated content may be incorrect." />
 
 Figure 3.15:Check Parking Status
 
-Table 3.13: Check Parking Status
+Table 3.14: Check Parking Status
 
 <table>
 <colgroup>
@@ -1384,7 +1386,7 @@ alt="A diagram of a login AI-generated content may be incorrect." />
 
 Figure 3.16: Admin Login
 
-Table 3.14: Admin Login
+Table 3.15: Admin Login
 
 <table>
 <colgroup>
@@ -1446,7 +1448,7 @@ alt="A diagram of a carpooling process AI-generated content may be incorrect." /
 
 Figure 3.17: Access Carpooling Data & Review Reports and Complaints
 
-Table 3.15: Access Carpooling Data & Review Reports and Complaints
+Table 3.16: Access Carpooling Data & Review Reports and Complaints
 
 <table>
 <colgroup>
@@ -1509,7 +1511,7 @@ alt="A diagram of a data flow AI-generated content may be incorrect." />
 
 Figure 3.18: Review Reports and Complaints
 
-Table 3.16: Review Reports and Complaints
+Table 3.17: Review Reports and Complaints
 
 <table>
 <colgroup>
@@ -1570,7 +1572,7 @@ alt="A diagram of a user management system AI-generated content may be incorrect
 
 Figure 3.19: Manage User Accounts
 
-Table 3.17: Manage User Accounts
+Table 3.18: Manage User Accounts
 
 <table>
 <colgroup>
@@ -1631,7 +1633,7 @@ alt="A diagram of parking data AI-generated content may be incorrect." />
 
 Figure 3.20: Access Parking Data
 
-Table 3.18: Access Parking Data
+Table 3.19: Access Parking Data
 
 <table>
 <colgroup>
@@ -1687,7 +1689,7 @@ Table 3.18: Access Parking Data
 
 ##### 3.1.2.16 Real-Time GPS Tracking (Student / Staff)
 
-Table 3.19: Real-Time GPS Tracking
+Table 3.20: Real-Time GPS Tracking
 
 <table>
   <colgroup>
@@ -1720,7 +1722,7 @@ Table 3.19: Real-Time GPS Tracking
 
 ##### 3.1.2.17 Receive Trip Notifications (Student / Staff)
 
-Table 3.20: Receive Trip Notifications
+Table 3.21: Receive Trip Notifications
 
 <table>
 <colgroup>
@@ -1763,7 +1765,7 @@ ensure the system delivers a responsive, stable, and scalable user
 experience under different load conditions. The table below outlines the
 desired performance characteristics to meet user needs effectively.
 
-Table 3.21: Performance Requirements
+Table 3.22: Performance Requirements
 | | | |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1792,7 +1794,7 @@ accessible experience for all types of users, including students, staff,
 guests, and administrators. The table below details each usability
 requirement.
 
-Table 3.22: Usability Requirements
+Table 3.23: Usability Requirements
 | | | |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1824,7 +1826,7 @@ role-based access control, and real-time system feedback, providing a
 smooth experience for all users including students, staff, guests, and
 administrators.
 
-Table 3.23: System Interfaces
+Table 3.24: System Interfaces
 | | | | |
 |:---|:---|:---|:---|
 | Interface ID | System Name | Description | Details |
@@ -1842,7 +1844,7 @@ layouts, and user interaction components are designed for clarity,
 accessibility, and consistency, adhering to the Multimedia University
 (MMU) branding and the administrative dashboard interface style.
 
-Table 3.24: User Interfaces
+Table 3.25: User Interfaces
 | | | |
 |:---|:---|:---|
 | Module ID | Description | Priority |
@@ -1869,7 +1871,7 @@ the devices should meet the following minimum hardware specifications.
 Devices that do not meet these requirements may experience degraded
 performance or limited functionality.
 
-Table 3.25: Hardware Interfaces Requirements
+Table 3.26: Hardware Interfaces Requirements
 | | |
 |:---|:---|
 | Interface ID | Description |
@@ -1885,7 +1887,7 @@ various software components and platforms to operate effectively. Below
 is a detailed list of software interfaces required for system
 functionality:
 
-Table 3.26: Software Interfaces
+Table 3.27: Software Interfaces
 | | | | | | |
 |:---|:---|:---|:---|:---|:---|
 | ID | Category | Name | Version Number | Purpose | Reference |
@@ -1907,7 +1909,7 @@ This section outlines the communication interfaces and protocols used by
 the Campus Ride-Sharing and Parking Integration System to interact with
 users, external services, and other systems.
 
-Table 3.27: Communications Interfaces
+Table 3.28: Communications Interfaces
 
 <table>
 <colgroup>
@@ -2022,7 +2024,7 @@ possessing role-based operations and permissions.
 
 #### 3.5.1 User
 
-Table 3.28: User Data Dictionary
+Table 3.29: User Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2034,7 +2036,7 @@ Table 3.28: User Data Dictionary
 
 #### 3.5.2 Student
 
-Table 3.29: Student Data Dictionary
+Table 3.30: Student Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2042,7 +2044,7 @@ Table 3.29: Student Data Dictionary
 
 #### 3.5.3 Staff
 
-Table 3.30: Staff Data Dictionary
+Table 3.31: Staff Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2052,7 +2054,7 @@ Table 3.30: Staff Data Dictionary
 
 3.5.4 Guest
 
-Table 3.31: Guest Data Dictionary
+Table 3.32: Guest Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2060,7 +2062,7 @@ Table 3.31: Guest Data Dictionary
 
 #### 3.5.5 Admin
 
-Table 3.32: Admin Data Dictionary
+Table 3.33: Admin Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2068,7 +2070,7 @@ Table 3.32: Admin Data Dictionary
 
 #### 3.5.6 RideSharing
 
-Table 3.33: RideSharing Data Dictionary
+Table 3.34: RideSharing Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2082,7 +2084,7 @@ Table 3.33: RideSharing Data Dictionary
 
 #### 3.5.7 Report
 
-Table 3.34: Report Data Dictionary
+Table 3.35: Report Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2094,7 +2096,7 @@ Table 3.34: Report Data Dictionary
 
 #### 3.5.8 ParkingSpot
 
-Table 3.35: ParkingSpot Data Dictionary
+Table 3.36: ParkingSpot Data Dictionary
 | | | | | |
 |:-----------|:------------------------|:--------------|:-------------|:------------|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2104,7 +2106,7 @@ Table 3.35: ParkingSpot Data Dictionary
 
 #### 3.5.9 Reservation
 
-Table 3.36: Reservation Data Dictionary
+Table 3.37: Reservation Data Dictionary
 | | | | | |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2121,7 +2123,7 @@ Management System development. The design constraints can be hardware
 constraints, software constraints, regulatory and standard constraints,
 social and cultural constraints, and organizational constraints.
 
-Table 3.37: Design Constraints
+Table 3.38: Design Constraints
 | | | | |
 |:---|:---|:---|:---|
 | Requirement ID | Description | Priority | Author |
@@ -2149,7 +2151,7 @@ in order to meet those needs.
 
 #### 3.7.1 Accuracy
 
-Table 3.38: Accuracy
+Table 3.39: Accuracy
 | | | | |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2157,7 +2159,7 @@ Table 3.38: Accuracy
 
 #### 3.7.2 Availability
 
-Table 3.39: Availability
+Table 3.40: Availability
 | | | | |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2165,7 +2167,7 @@ Table 3.39: Availability
 
 #### 3.7.3 Maintainability
 
-Table 3.40: Maintainability
+Table 3.41: Maintainability
 | | | | |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2174,7 +2176,7 @@ Table 3.40: Maintainability
 
 #### 3.7.4 Portability
 
-Table 3.41: Portability
+Table 3.42: Portability
 
 <table>
 <colgroup>
@@ -2211,7 +2213,7 @@ compatibility across environments.</p></td>
 
 #### 3.7.5 Reliability
 
-Table 3.42: Reliability
+Table 3.43: Reliability
 | | | | |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2221,7 +2223,7 @@ Table 3.42: Reliability
 
 #### 3.7.6 Security
 
-Table 3.43: Security
+Table 3.44: Security
 
 <table>
 <colgroup>
@@ -2257,7 +2259,7 @@ unauthorized access.</td>
 
 #### 3.7.7 Usability
 
-Table 3.44: Usability
+Table 3.45: Usability
 | | | | |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
