@@ -1608,7 +1608,7 @@ Table 3.17: Manage User Accounts
 </tr>
 <tr>
 <td>Postcondition</td>
-<td>User accounts data is displayed and admin can manage accounts</td>
+<td>User accounts data is displayed and admin shall be able to manage accounts</td>
 </tr>
 <tr>
 <td>Main Flow</td>
@@ -2589,7 +2589,7 @@ alt="A screenshot of a computer AI-generated content may be incorrect." />
 
 Figure 3.38 Screenshot of Prototype Admin Manage User Accounts
 
-This is the page where Admins can view all the parking data which were
+This is the page where Admins shall be able to view all the parking data which were
 made reserved by who and at which faculty. Admin can choose to delete
 the reserved parking data as they see fit.
 
