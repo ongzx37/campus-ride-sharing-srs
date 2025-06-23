@@ -765,8 +765,7 @@ class="anchor"></span>
 
 3.1.2 Sequence Diagram
 
-##### 3.1.2.1 Login and Logout
-with University Credentials (Student and Staff）
+##### 3.1.2.1 Login and Logout with University Credentials (Student and Staff）
 
 <img src="./media/image9.png" style="width:6.26772in;height:4.08333in"
 alt="A diagram of a program AI-generated content may be incorrect." />
@@ -829,8 +828,7 @@ system</td>
 </tbody>
 </table>
 
-##### 3.1.2.2 Guest
-Login/Logout(Guest)
+##### 3.1.2.2 Guest Login/Logout(Guest)
 
 <img src="./media/image10.png" style="width:6.26772in;height:3.91667in"
 alt="A diagram of a guest login AI-generated content may be incorrect." />
@@ -892,8 +890,7 @@ dashboard</td>
 
 
 
-##### 3.1.2.3 Create Ride Offer
-(Student and Staff)
+##### 3.1.2.3 Create Ride Offer (Student and Staff)
 
 <img src="./media/image11.png" style="width:6.00034in;height:3.35852in"
 alt="A diagram of a car dashboard AI-generated content may be incorrect." />
@@ -958,8 +955,7 @@ offer</td>
 </tbody>
 </table>
 
-##### 3.1.2.4 Join Ride(Student
-and Staff）
+##### 3.1.2.4 Join Ride (Student and Staff)
 
 <img src="./media/image12.png" style="width:6.26772in;height:3.26389in"
 alt="A screenshot of a diagram AI-generated content may be incorrect." />
@@ -1023,8 +1019,7 @@ routes</td>
 </tbody>
 </table>
 
-##### 3.1.2.5 View Recommended
-Matches and Routes(Student and Staff）
+##### 3.1.2.5 View Recommended Matches and Routes (Student and Staff）
 
 <img src="./media/image13.png" style="width:6.26772in;height:2.65278in"
 alt="A screenshot of a computer program AI-generated content may be incorrect." />
@@ -1089,8 +1084,7 @@ data</td>
 </table>
 
 
-##### 3.1.2.6 Manage Trip
-Schedule and History(Student and Staff）
+##### 3.1.2.6 Manage Trip Schedule and History(Student and Staff）
 
 <img src="./media/image14.png" style="width:6.26772in;height:4.375in"
 alt="A diagram of a service AI-generated content may be incorrect." />
@@ -1154,8 +1148,7 @@ in the system</td>
 </tbody>
 </table>
 
-##### 3.1.2.7 Report
-Feature(Student and Staff）
+##### 3.1.2.7 Report Feature(Student and Staff）
 
 <img src="./media/image15.png" style="width:6.26772in;height:4.18056in"
 alt="A diagram of a workflow AI-generated content may be incorrect." />
@@ -1227,8 +1220,7 @@ displayed to the user</p></td>
 </table>
 
 
-##### 3.1.2.8 View Real-time
-Parking Availability（Except Admin)
+##### 3.1.2.8 View Real-time Parking Availability（Except Admin)
 
 <img src="./media/image16.png" style="width:6.26772in;height:3.48611in"
 alt="A diagram of parking system AI-generated content may be incorrect." />
@@ -1291,8 +1283,7 @@ Parking page</td>
 </table>
 
 
-##### 3.1.2.9 Reserve Parking
-Spot（Except Admin)
+##### 3.1.2.9 Reserve Parking Spot（Except Admin)
 
 <img src="./media/image17.png" style="width:6.26772in;height:3.69444in"
 alt="A diagram of parking system AI-generated content may be incorrect." />
@@ -1356,8 +1347,7 @@ reservation</td>
 </table>
 
 
-##### 3.1.2.10 Check Parking
-Status （Except Admin)
+##### 3.1.2.10 Check Parking Status （Except Admin)
 
 <img src="./media/image18.png" style="width:6.26772in;height:3.5in"
 alt="A diagram of a parking system AI-generated content may be incorrect." />
@@ -1481,8 +1471,7 @@ login</td>
 </table>
 
 
-##### 3.1.2.12 Access
-Carpooling Data & Review Reports and Complaints (Admin)
+##### 3.1.2.12 Access Carpooling Data & Review Reports and Complaints (Admin)
 
 <img src="./media/image20.png" style="width:6.26772in;height:2.01389in"
 alt="A diagram of a carpooling process AI-generated content may be incorrect." />
@@ -1545,8 +1534,7 @@ after clicking feedback button</td>
 </table>
 
 
-##### 3.1.2.12B Access
-Carpooling Data (Admin)
+##### 3.1.2.12B Access Carpooling Data (Admin)
 
 <img src="./media/image21.png" style="width:6.26772in;height:2.38889in"
 alt="A diagram of a data flow AI-generated content may be incorrect." />
@@ -1606,8 +1594,7 @@ button</td>
 </tbody>
 </table>
 
-##### 3.1.2.14 Manage User
-Accounts (Admin)
+##### 3.1.2.14 Manage User Accounts (Admin)
 
 <img src="./media/image22.png" style="width:6.26772in;height:2.95833in"
 alt="A diagram of a user management system AI-generated content may be incorrect." />
@@ -1667,8 +1654,7 @@ Table 3.17: Manage User Accounts
 </tbody>
 </table>
 
-##### 3.1.2.15 Access Parking
-Data (Admin)
+##### 3.1.2.15 Access Parking Data (Admin)
 
 <img src="./media/image23.png" style="width:6.26772in;height:2in"
 alt="A diagram of parking data AI-generated content may be incorrect." />
@@ -1761,8 +1747,7 @@ Table 3.19: Real-Time GPS Tracking
   </tbody>
 </table>
 
-### 3.2 Performance
-Requirements
+### 3.2 Performance Requirements
 
 This section defines the performance and quality expectations for the
 Campus Ride-Sharing and Parking Integration System. These requirements
@@ -1791,8 +1776,7 @@ Table 3.19: Performance Requirements
 | REQ_P015 | Secure communications shall use encryption with a processing delay of less than 50ms. | Medium |
 
 
-### 3.3 Usability
-Requirements
+### 3.3 Usability Requirements
 
 This section outlines the usability expectations for the Campus
 Ride-Sharing and Parking Integration System. These requirements aim to
@@ -1822,8 +1806,7 @@ Table 3.20: Usability Requirements
 | REQ_UR015 | The system shall be regularly updated to maintain compatibility with browsers and device operating systems. | Medium |
 
 
-### 3.4 Interface
-Requirements
+### 3.4 Interface Requirements
 
 #### 3.4.1 System Interfaces
 
@@ -1915,8 +1898,7 @@ Table 3.24: Software Interfaces
 | REQ_SI005 | API Framework | Express.js | 4.x | Framework for building RESTful APIs to support client-server communication | Express Official Page |
 
 
-#### 3.4.5 Communications
-Interfaces
+#### 3.4.5 Communications Interfaces
 
 This section outlines the communication interfaces and protocols used by
 the Campus Ride-Sharing and Parking Integration System to interact with
@@ -2160,8 +2142,7 @@ Table 3.35: Design Constraints
 | REQ_DC012 | The system must ensure reports submitted by users are reliably logged and immediately accessible to Admins for quick response. | High | Francis Wong Wei Hou |
 
 
-### 3.7 Software system
-attributes
+### 3.7 Software system attributes
 
 In this subsection, the necessary characteristics and traits of the
 Ride-Sharing and Parking Management System are specified. These traits
@@ -2290,8 +2271,7 @@ Table 3.42: Usability
 | REQ_SRA013 | The system shall include a help section or tooltips to assist users in understanding functionalities. | Medium | Francis Wong Wei Hou |
 
 
-### 3.8 Supporting
-Information
+### 3.8 Supporting Information
 
 This section provides additional information that supports the system
 requirements, referencing data collected during the requirements
@@ -2640,8 +2620,7 @@ requirements, usability requirements, maintainability requirements, and
 portability requirements. Each action includes details on how, who,
 when, and where.
 
-#### 4.1.1 Functional
-Requirements Verification
+#### 4.1.1 Functional Requirements Verification
 
 Table 4.1: Functional Requirements Verification
 <table>
@@ -2678,8 +2657,7 @@ Table 4.1: Functional Requirements Verification
 </tbody>
 </table>
 
-#### 4.1.2 Performance
-Requirements Verification
+#### 4.1.2 Performance Requirements Verification
 
 Table 4.2: Performance Requirements Verification
 <table>
@@ -2758,8 +2736,7 @@ Table 4.3: Security Requirements Verification
 
 
 
-#### 4.1.4 Usability
-Requirements Verification
+#### 4.1.4 Usability Requirements Verification
 
 Table 4.4: Usability Requirements Verification
 <table>
@@ -2797,8 +2774,7 @@ Table 4.4: Usability Requirements Verification
 </table>
 
 
-#### 4.1.5 Maintainability
-Requirements Verification
+#### 4.1.5 Maintainability Requirements Verification
 
 Table 4.5: Maintainability Requirements Verification
 <table>
@@ -2836,8 +2812,7 @@ Table 4.5: Maintainability Requirements Verification
 </table>
 
 
-#### 4.1.6 Portability
-Requirements Verification
+#### 4.1.6 Portability Requirements Verification
 
 Table 4.6: Portability Requirements Verification
 <table>
@@ -2877,11 +2852,10 @@ Table 4.6: Portability Requirements Verification
 
 <span id="_4pf4n5hguzzv" class="anchor"></span>
 
-4.2 Verification Criteria
+### 4.2 Verification Criteria
 
 This section shows that the system will be verified based on the
-following criteria to ensure it meets the defined functional and quality
-requirements:
+following criteria to ensure it meets the defined functional and quality requirements:
 
 
 Table 4.7: Verification Criteria
@@ -2902,8 +2876,7 @@ Table 4.7: Verification Criteria
 
 ## 5 Appendices
 
-### 5.1 Assumptions and
-Dependencies
+### 5.1 Assumptions and Dependencies
 
 **Assumptions**:
 
