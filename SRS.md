@@ -2920,3 +2920,10 @@ Table 5.1: Acronyms and Abbreviations
 | ERF | Reporting Feature |
 | ASD | Authentication Server |
 | SD | System Dashboard |
+| ERD | Entity Relationship Diagram |
+| DBMS | Database Management System |
+| JSON | JavaScript Object Notation |
+| LDAP | Lightweight Directory Access Protocol |
+| SAML | Security Assertion Markup Language |
+| LINUX | Lovable Intellect Not Using XP |
+| REST | Representational State Transfer |
