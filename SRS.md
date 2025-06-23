@@ -1995,12 +1995,12 @@ class="anchor"></span><img src="./media/image24.png" style="width:7.55833in;heig
 alt="A black screen with white text AI-generated content may be incorrect." />3.5
 Logical Database Requirements
 
-Figure 3.1: Class Diagram
+Figure 3.21: Class Diagram
 
 <img src="./media/image25.png" style="width:6.94271in;height:5.2128in"
 alt="A black background with white text AI-generated content may be incorrect." />
 
-Figure 3.2: Entity Relationship Diagram
+Figure 3.22: Entity Relationship Diagram
 
 The Entity-Relationship Diagram (ERD) represents the structure and
 relationship between the system entities of Campus Ride-Sharing Platform
@@ -2369,7 +2369,7 @@ its requirements. The key elicitation techniques employed include:
 <img src="./media/image26.png" style="width:6.26772in;height:2.83333in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.1 Screenshot of Francis Wong Wei Hou interviewing
+Figure 3.23 Screenshot of Francis Wong Wei Hou interviewing
 
 #### 3.8.2 Observation Summary
 
@@ -2378,7 +2378,7 @@ Based on the elicitation plan
 <img src="./media/image27.png" style="width:6.26772in;height:3.54167in"
 alt="A screenshot of a car sharing application AI-generated content may be incorrect." />
 
-Figure 3.8.2 Screenshot of SpotHero Website
+Figure 3.24 Screenshot of SpotHero Website
 
 1.  **Overview**
 
@@ -2488,7 +2488,7 @@ trusted user badges to address this concern.
 <img src="./media/image28.png" style="width:6.26772in;height:3.93056in"
 alt="A screenshot of a computer screen AI-generated content may be incorrect." />
 
-Figure 3.8.3 Screenshot of Prototype Log In Page
+Figure 3.25 Screenshot of Prototype Log In Page
 
 This is the login page where both student and staff may log in using
 their ID and Password, where as guest can press the guest button to log
@@ -2499,17 +2499,17 @@ which is not accessible to staff, student and guests.
 <img src="./media/image29.png" style="width:6.26772in;height:3.95833in"
 alt="A screenshot of a student dashboard AI-generated content may be incorrect." />
 
-Figure 3.8.4 Screenshot of Prototype Student Dashboard
+Figure 3.26 Screenshot of Prototype Student Dashboard
 
 <img src="./media/image30.png" style="width:6.26772in;height:3.91667in"
 alt="A screenshot of a car dashboard AI-generated content may be incorrect." />
 
-Figure 3.8.5 Screenshot of Prototype Staff Dashboard
+Figure 3.27 Screenshot of Prototype Staff Dashboard
 
 <img src="./media/image31.png" style="width:6.26772in;height:3.94444in"
 alt="A screenshot of a car dashboard AI-generated content may be incorrect." />
 
-Figure 3.8.6 Screenshot of Prototype Guest Dashboard
+Figure 3.28 Screenshot of Prototype Guest Dashboard
 
 These are the dashboard page for both the staff and student, where they
 can access both carpooling and the smart parking services. Whereas for
@@ -2519,12 +2519,12 @@ dashboard.
 <img src="./media/image32.png" style="width:6.26772in;height:3.90278in"
 alt="A screenshot of a website AI-generated content may be incorrect." />
 
-Figure 3.8.7 Screenshot of Prototype Student Carpooling services
+Figure 3.29 Screenshot of Prototype Student Carpooling services
 
 <img src="./media/image32.png" style="width:6.26772in;height:3.90278in"
 alt="A screenshot of a website AI-generated content may be incorrect." />
 
-Figure 3.8.8 Screenshot of Prototype Staff Carpooling services
+Figure 3.30 Screenshot of Prototype Staff Carpooling services
 
 This is the page that both staff and student will be brought to when
 they press on the carpooling services button. In this page you will see
@@ -2535,12 +2535,12 @@ to the destination in common.
 <img src="./media/image33.png" style="width:5.867in;height:3.51687in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.9 Screenshot of Prototype Student Carpooling Manage History
+Figure 3.31 Screenshot of Prototype Student Carpooling Manage History
 
 <img src="./media/image34.png" style="width:5.86701in;height:3.40853in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-_Figure 3.8.10 Screenshot of Prototype Staff Carpooling Manage History_
+_Figure 3.32 Screenshot of Prototype Staff Carpooling Manage History_
 
 This is the page where both student and staff are able to see their
 carpooling history and also for them to be able to give feedback or
@@ -2549,17 +2549,17 @@ report on that particular drive.
 <img src="./media/image35.png" style="width:6.01701in;height:3.62521in"
 alt="A screen shot of a map AI-generated content may be incorrect." />
 
-Figure 3.8.11 Screenshot of Prototype Student Smart Parking Services
+Figure 3.33 Screenshot of Prototype Student Smart Parking Services
 
 <img src="./media/image36.png" style="width:5.95867in;height:3.67521in"
 alt="A screen shot of a map AI-generated content may be incorrect." />
 
-Figure 3.8.12 Screenshot of Prototype Staff Smart Parking Services
+Figure 3.34 Screenshot of Prototype Staff Smart Parking Services
 
 <img src="./media/image37.png" style="width:6.26772in;height:3.93056in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.13 Screenshot of Prototype Guest Smart Parking Services
+Figure 3.35 Screenshot of Prototype Guest Smart Parking Services
 
 This page is for both students, staffs and guests alike to access the
 smart parking services where they can see which faculty has how many
@@ -2568,7 +2568,7 @@ parkings left and decide if they want to reserve or not.
 <img src="./media/image38.png" style="width:6.26772in;height:3.88889in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.14 Screenshot of Prototype Admin Manage User Accounts
+Figure 3.36 Screenshot of Prototype Admin Manage User Accounts
 
 This the page where Admins can access and manage all user accounts for
 both student and staff. They can both edit the information within the
@@ -2577,7 +2577,7 @@ account of both student and staff or delete the account in its entirety.
 <img src="./media/image39.png" style="width:5.67533in;height:3.23352in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.15 Screenshot of Prototype Admin Manage User Accounts
+Figure 3.37 Screenshot of Prototype Admin Manage User Accounts
 
 This is the page where Admins can view all the carpooling data and
 feedbacks from the driver and rider.
@@ -2585,7 +2585,7 @@ feedbacks from the driver and rider.
 <img src="./media/image40.png" style="width:6.26772in;height:3.91667in"
 alt="A screenshot of a computer AI-generated content may be incorrect." />
 
-Figure 3.8.16 Screenshot of Prototype Admin Manage User Accounts
+Figure 3.38 Screenshot of Prototype Admin Manage User Accounts
 
 This is the page where Admins can view all the parking data which were
 made reserved by who and at which faculty. Admin can choose to delete
@@ -2901,7 +2901,7 @@ Table 4.7: Verification Criteria
 
 Abbreviations
 
-Table 5.1
+Table 5.1: Acronyms and Abbreviations
 | | |
 |------------------------|----------------------------------------------------|
 | Acronym / Abbreviation | Definition |
