@@ -359,7 +359,7 @@ Table 1.1: Goals of the System
 | REQ_CRPS_004 | The system shall authenticate staff and students through secure university credentials and allow guests to log in anonymously or via temporary credentials (REQ_UCG001) to ensure authorized access. |
 | REQ_CRPS_005 | The system shall include GPS-based location tracking to improve matching accuracy and parking navigation. |
 | REQ_CRPS_006 | The system shall provide a centralized web-based interface for ride-sharing and parking services. |
-| REQ_CRPS_007 | The system shall support trip history tracking and real-time notifications for upcoming rides and changes. |
+| REQ_CRPS_007 | The system shall support trip history tracking and real-time notifications for upcoming rides and changes (applies only to students and staff; guests do not receive real-time notifications). |
 | REQ_CRPS_008 | The system shall provide reporting and contact features to enhance user safety during trips. |
 | REQ_CRPS_009 | The system shall promote ride-sharing as a sustainable commuting alternative to reduce emissions and traffic. |
 | REQ_CRPS_010 | The system shall include analytics dashboards for administrators to monitor usage and generate actionable insights. |
@@ -694,7 +694,8 @@ Table 3.1: Use Case Diagram of Actor (Student)
 | REQ_UCS007 | View Real-time Parking | Displays available parking spots in real time |
 | REQ_UCS008 | Reserve Parking Spot | Enables student to book parking space before arrival |
 | REQ_UCS009 | Check Parking Status | Allows student to view parking reservation details |
-| REQ_UCS010   | Real-Time GPS Tracking   | Continuously obtain and display the user’s current location on a campus map |
+| REQ_UCS010 | Real-Time GPS Tracking | Continuously obtain and display the user’s current location on a campus map |
+| REQ_UCS011 | Receive Trip Notifications | Enables student to receive real-time trip updates and view past trip history |
 
 ##### 3.1.1.2 Staff
 
@@ -718,7 +719,8 @@ Table 3.2: Use Case Diagram of Actor (Staff)
 | REQ_UCT007 | View Real-time Parking | Displays available parking spots in real time |
 | REQ_UCT008 | Reserve Parking Spot | Enables staff to book parking space before arrival |
 | REQ_UCT009 | Check Parking Status | Allows staff to view parking reservation details |
-| REQ_UCT010   | Real-Time GPS Tracking   | Continuously obtain and display the teacher’s current location on a campus map |
+| REQ_UCT010 | Real-Time GPS Tracking | Continuously obtain and display the teacher’s current location on a campus map |
+| REQ_UCT011 | Receive Trip Notifications | Enables staff to receive real-time trip updates and view past trip history |
 
 ##### 3.1.1.3 Guest
 
@@ -1744,6 +1746,42 @@ Table 3.19: Real-Time GPS Tracking
   </tbody>
 </table>
 
+##### 3.1.2.17 Receive Trip Notifications (Student / Staff)
+
+Table 3.20: Receive Trip Notifications
+<table>
+<colgroup>
+  <col style="width: 20%" />
+  <col style="width: 79%" />
+</colgroup>
+<tbody>
+  <tr><td>Field</td><td>Description</td></tr>
+  <tr><td>ID</td><td>REQSQ016</td></tr>
+  <tr><td>Feature</td><td>Receive Trip Notifications</td></tr>
+  <tr><td>Version</td><td>1.0</td></tr>
+  <tr><td>Purpose</td><td>To deliver real-time trip updates and allow viewing of past trip records</td></tr>
+  <tr><td>Actor</td><td>Student / Staff</td></tr>
+  <tr><td>Precondition</td><td>User is logged in as student or staff and has participated in at least one trip</td></tr>
+  <tr><td>Postcondition</td><td>User sees real-time notifications or trip-history details</td></tr>
+  <tr>
+    <td>Main Flow</td>
+    <td>
+      <p>1. System detects upcoming or active trip event</p>
+      <p>2. System pushes notification to user</p>
+      <p>3. User clicks notification to view trip details</p>
+      <p>4. System displays trip-history interface</p>
+    </td>
+  </tr>
+  <tr>
+    <td>Alternate Scenario</td>
+    <td>
+      <p>1. If no upcoming trip, system shows “No notifications”</p>
+      <p>2. If notification delivery fails, system logs error and retries</p>
+    </td>
+  </tr>
+</tbody>
+</table>
+
 ### 3.2 Performance Requirements
 
 This section defines the performance and quality expectations for the
@@ -1752,7 +1790,7 @@ ensure the system delivers a responsive, stable, and scalable user
 experience under different load conditions. The table below outlines the
 desired performance characteristics to meet user needs effectively.
 
-Table 3.19: Performance Requirements
+Table 3.21: Performance Requirements
 |  |  |  |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1782,7 +1820,7 @@ accessible experience for all types of users, including students, staff,
 guests, and administrators. The table below details each usability
 requirement.
 
-Table 3.20: Usability Requirements
+Table 3.22: Usability Requirements
 |  |  |  |
 |:---|:---|:---|
 | Requirement ID | Description | Priority |
@@ -1815,7 +1853,7 @@ role-based access control, and real-time system feedback, providing a
 smooth experience for all users including students, staff, guests, and
 administrators.
 
-Table 3.21: System Interfaces
+Table 3.23: System Interfaces
 |  |  |  |  |
 |:---|:---|:---|:---|
 | Interface ID | System Name | Description | Details |
@@ -1834,7 +1872,7 @@ layouts, and user interaction components are designed for clarity,
 accessibility, and consistency, adhering to the Multimedia University
 (MMU) branding and the administrative dashboard interface style.
 
-Table 3.22: User Interfaces
+Table 3.24: User Interfaces
 |  |  |  |
 |:---|:---|:---|
 | Module ID | Description | Priority |
@@ -1861,7 +1899,7 @@ the devices should meet the following minimum hardware specifications.
 Devices that do not meet these requirements may experience degraded
 performance or limited functionality.
 
-Table 3.23: Hardware Interfaces Requirements
+Table 3.25: Hardware Interfaces Requirements
 |  |  |
 |:---|:---|
 | Interface ID | Description |
@@ -1878,7 +1916,7 @@ various software components and platforms to operate effectively. Below
 is a detailed list of software interfaces required for system
 functionality:
 
-Table 3.24: Software Interfaces
+Table 3.26: Software Interfaces
 |  |  |  |  |  |  |
 |:---|:---|:---|:---|:---|:---|
 | ID | Category | Name | Version Number | Purpose | Reference |
@@ -1901,7 +1939,7 @@ This section outlines the communication interfaces and protocols used by
 the Campus Ride-Sharing and Parking Integration System to interact with
 users, external services, and other systems.
 
-Table 3.25: Communications Interfaces
+Table 3.27: Communications Interfaces
 <table>
 <colgroup>
 <col style="width: 15%" />
@@ -2016,7 +2054,7 @@ possessing role-based operations and permissions.
 
 #### 3.5.1 User
 
-Table 3.26: User Data Dictionary
+Table 3.28: User Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2028,7 +2066,7 @@ Table 3.26: User Data Dictionary
 
 #### 3.5.2 Student
 
-Table 3.27: Student Data Dictionary
+Table 3.29: Student Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2037,7 +2075,7 @@ Table 3.27: Student Data Dictionary
 
 #### 3.5.3 Staff
 
-Table 3.28: Staff Data Dictionary
+Table 3.30: Staff Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2048,7 +2086,7 @@ Table 3.28: Staff Data Dictionary
 
 3.5.4 Guest
 
-Table 3.29: Guest Data Dictionary
+Table 3.31: Guest Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2056,7 +2094,7 @@ Table 3.29: Guest Data Dictionary
 
 #### 3.5.5 Admin
 
-Table 3.30: Admin Data Dictionary
+Table 3.32: Admin Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2065,7 +2103,7 @@ Table 3.30: Admin Data Dictionary
 
 #### 3.5.6 RideSharing
 
-Table 3.31: RideSharing Data Dictionary
+Table 3.33: RideSharing Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2080,7 +2118,7 @@ Table 3.31: RideSharing Data Dictionary
 
 #### 3.5.7 Report
 
-Table 3.32: Report Data Dictionary
+Table 3.34: Report Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2093,7 +2131,7 @@ Table 3.32: Report Data Dictionary
 
 #### 3.5.8 ParkingSpot
 
-Table 3.33: ParkingSpot Data Dictionary
+Table 3.35: ParkingSpot Data Dictionary
 |            |                         |               |              |             |
 |:-----------|:------------------------|:--------------|:-------------|:------------|
 | Field Name | Description             | Data Type     | Constraints  | Extra Notes |
@@ -2104,7 +2142,7 @@ Table 3.33: ParkingSpot Data Dictionary
 
 #### 3.5.9 Reservation
 
-Table 3.34: Reservation Data Dictionary
+Table 3.36: Reservation Data Dictionary
 |  |  |  |  |  |
 |:---|:---|:---|:---|:---|
 | Field Name | Description | Data Type | Constraints | Extra Notes |
@@ -2121,7 +2159,7 @@ Management System development. The design constraints can be hardware
 constraints, software constraints, regulatory and standard constraints,
 social and cultural constraints, and organizational constraints.
 
-Table 3.35: Design Constraints
+Table 3.37: Design Constraints
 |  |  |  |  |
 |:---|:---|:---|:---|
 | Requirement ID | Description | Priority | Author |
@@ -2150,7 +2188,7 @@ in order to meet those needs.
 
 #### 3.7.1 Accuracy
 
-Table 3.36: Accuracy
+Table 3.38: Accuracy
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2159,7 +2197,7 @@ Table 3.36: Accuracy
 
 #### 3.7.2 Availability
 
-Table 3.37: Availability
+Table 3.39: Availability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2168,7 +2206,7 @@ Table 3.37: Availability
 
 #### 3.7.3 Maintainability
 
-Table 3.38: Maintainability
+Table 3.40: Maintainability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2178,7 +2216,7 @@ Table 3.38: Maintainability
 
 #### 3.7.4 Portability
 
-Table 3.39: Portability
+Table 3.41: Portability
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -2214,7 +2252,7 @@ compatibility across environments.</p></td>
 
 #### 3.7.5 Reliability
 
-Table 3.40: Reliability
+Table 3.42: Reliability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
@@ -2225,7 +2263,7 @@ Table 3.40: Reliability
 
 #### 3.7.6 Security
 
-Table 3.41: Security
+Table 3.43: Security
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -2260,7 +2298,7 @@ unauthorized access.</td>
 
 #### 3.7.7 Usability
 
-Table 3.42: Usability
+Table 3.44: Usability
 |  |  |  |  |
 |----|----|----|----|
 | Requirement ID | Description | Priority | Author |
