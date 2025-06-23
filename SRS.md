@@ -697,6 +697,7 @@ Table 3.1: Use Case Diagram of Actor (Student)
 | REQ_UCS007 | View Real-time Parking | Displays available parking spots in real time |
 | REQ_UCS008 | Reserve Parking Spot | Enables student to book parking space before arrival |
 | REQ_UCS009 | Check Parking Status | Allows student to view parking reservation details |
+| REQ_UCS010   | Real-Time GPS Tracking   | Continuously obtain and display the user’s current location on a campus map |
 
 ##### 3.1.1.2 Staff
 
@@ -720,6 +721,7 @@ Table 3.2: Use Case Diagram of Actor (Staff)
 | REQ_UCT007 | View Real-time Parking | Displays available parking spots in real time |
 | REQ_UCT008 | Reserve Parking Spot | Enables staff to book parking space before arrival |
 | REQ_UCT009 | Check Parking Status | Allows staff to view parking reservation details |
+| REQ_UCT010   | Real-Time GPS Tracking   | Continuously obtain and display the teacher’s current location on a campus map |
 
 ##### 3.1.1.3 Guest
 
@@ -1724,6 +1726,39 @@ Table 3.18: Access Parking Data
 <td>1. If database fails, system shows error message</td>
 </tr>
 </tbody>
+</table>
+
+##### 3.1.2.16 Real-Time GPS Tracking (Student / Staff)
+
+Table 3.19: Real-Time GPS Tracking
+
+<table>
+  <colgroup>
+    <col style="width: 20%" />
+    <col style="width: 79%" />
+  </colgroup>
+  <tbody>
+    <tr><td>Field</td><td>Description</td></tr>
+    <tr><td>ID</td>           <td>REQSQ015</td></tr>
+    <tr><td>Feature</td>      <td>Real-Time GPS Tracking</td></tr>
+    <tr><td>Version</td>      <td>1.0</td></tr>
+    <tr><td>Purpose</td>      <td>To continuously fetch and display the user’s current campus location.</td></tr>
+    <tr><td>Actor</td>        <td>Student / Staff</td></tr>
+    <tr><td>Precondition</td> <td>User is logged in and has granted GPS permission on their device.</td></tr>
+    <tr><td>Postcondition</td><td>The campus map view shows the user’s current location, refreshing at a defined interval (e.g., every 5 s).</td></tr>
+    <tr><td>Main Flow</td>    <td>
+      <p>1. Actor opens “GPS Tracking” screen</p>
+      <p>2. System requests GPS coordinates</p>
+      <p>3. System plots location on campus map</p>
+      <p>4. System repeats steps 2–3 at regular intervals</p>
+    </td></tr>
+    <tr><td>Alternate Scenario</td>
+      <td>
+        <p>1. If GPS permission denied, system prompts for permission.</p>
+        <p>2. If GPS signal lost, system displays “Location unavailable”.</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ### 3.2 Performance
