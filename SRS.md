@@ -74,23 +74,23 @@ Integration System [7](#_4bplyqr3qak0)](#_4bplyqr3qak0)
 [3.1.2 Sequence Diagram [24](#_sg6k33co2rmc)](#_sg6k33co2rmc)
 
 [3.1.2.1 Login and Logout with University Credentials (Student and
-Staff） [24](#_Toc201504707)](#_Toc201504707)
+Staff) [24](#_Toc201504707)](#_Toc201504707)
 
 [3.1.2.2 Guest Login/Logout(Guest) [26](#_Toc201504708)](#_Toc201504708)
 
 [3.1.2.3 Create Ride Offer (Student and Staff)
 [28](#_Toc201504709)](#_Toc201504709)
 
-[3.1.2.4 Join Ride(Student and Staff）
+[3.1.2.4 Join Ride(Student and Staff)
 [30](#_jhdd9315sbe2)](#_jhdd9315sbe2)
 
-[3.1.2.5 View Recommended Matches and Routes(Student and Staff）
+[3.1.2.5 View Recommended Matches and Routes(Student and Staff)
 [31](#_Toc201504711)](#_Toc201504711)
 
-[3.1.2.6 Manage Trip Schedule and History(Student and Staff）
+[3.1.2.6 Manage Trip Schedule and History(Student and Staff)
 [33](#_Toc201504712)](#_Toc201504712)
 
-[3.1.2.7 Report Feature(Student and Staff）
+[3.1.2.7 Report Feature(Student and Staff)
 [35](#_v5l6b1kzx7ej)](#_v5l6b1kzx7ej)
 
 [3.1.2.8 View Real-time Parking Availability（Except Admin)
@@ -294,9 +294,7 @@ apps or physical sensor integration. Authentication is handled by the
 university’s Digital ID authentication service, while guests use a
 simplified login to access limited parking-related features.
 
-##### 1.3.1.1 Core
-Functionalities of the Campus Ride-Sharing and Parking Integration
-System
+##### 1.3.1.1 Core Functionalities of the Campus Ride-Sharing and Parking Integration System
 
 **1.Ride Coordination**
 
@@ -536,8 +534,7 @@ usage.
     - All transactions (rides, parking, report alerts) are logged for
       traceability and audit.
 
-#### 1.3.3 User
-Characteristics
+#### 1.3.3 User Characteristics
 
 This section describes the end users of the system, their expected
 familiarity with its features, and how their level of knowledge may
@@ -765,7 +762,7 @@ class="anchor"></span>
 
 3.1.2 Sequence Diagram
 
-##### 3.1.2.1 Login and Logout with University Credentials (Student and Staff）
+##### 3.1.2.1 Login and Logout with University Credentials (Student and Staff)
 
 <img src="./media/image9.png" style="width:6.26772in;height:4.08333in"
 alt="A diagram of a program AI-generated content may be incorrect." />
@@ -1019,7 +1016,7 @@ routes</td>
 </tbody>
 </table>
 
-##### 3.1.2.5 View Recommended Matches and Routes (Student and Staff）
+##### 3.1.2.5 View Recommended Matches and Routes (Student and Staff)
 
 <img src="./media/image13.png" style="width:6.26772in;height:2.65278in"
 alt="A screenshot of a computer program AI-generated content may be incorrect." />
@@ -1084,7 +1081,7 @@ data</td>
 </table>
 
 
-##### 3.1.2.6 Manage Trip Schedule and History(Student and Staff）
+##### 3.1.2.6 Manage Trip Schedule and History(Student and Staff)
 
 <img src="./media/image14.png" style="width:6.26772in;height:4.375in"
 alt="A diagram of a service AI-generated content may be incorrect." />
@@ -1148,7 +1145,7 @@ in the system</td>
 </tbody>
 </table>
 
-##### 3.1.2.7 Report Feature(Student and Staff）
+##### 3.1.2.7 Report Feature(Student and Staff)
 
 <img src="./media/image15.png" style="width:6.26772in;height:4.18056in"
 alt="A diagram of a workflow AI-generated content may be incorrect." />
