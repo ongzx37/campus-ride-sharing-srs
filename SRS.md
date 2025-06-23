@@ -1857,6 +1857,7 @@ Table 3.24: User Interfaces
 | REQ_UI010 | Icons and labels in navigation menus are vertically aligned, maintain equal spacing, and ensure usability even on mid-sized screens. | Medium |
 | REQ_UI011 | The top navigation bar includes user role display, a Logout button styled in blue (#007BFF), and an icon for intuitive access. | High |
 | REQ_UI012 | All interfaces are designed for desktop resolution first, with flexible layout containers that prevent horizontal scrolling. | Medium |
+| REQ_UI013 | All custom UI components/animations must pass a joint UX–Dev feasibility review. Any item estimated > 8 hrs to implement requires signed approval before design freeze. | High |
 
 #### 3.4.3 Hardware Interfaces
 
